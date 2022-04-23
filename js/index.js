@@ -13,6 +13,7 @@ addButton.addEventListener("click", () => {
         fetch(url)
             .then(response => response.json())
             .then(data => {
+                console.log(data)
                 document.querySelector("#title").innerHTML = data.Title
                 document.querySelector("#year").innerHTML = data.Year
                 document.querySelector("#poster").src = data.Poster
