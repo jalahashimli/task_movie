@@ -1,0 +1,21 @@
+h1 {
+    font-size: 40px;
+    color: blue;
+}
+
+#title {
+    color: red;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#year {
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#poster {
+    border: 2px dotted black;
+    border-radius: 25px;
+}
